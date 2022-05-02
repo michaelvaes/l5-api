@@ -9,9 +9,19 @@
       "email": "contact@maxsnow.me"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/christoph-kluge/dingo-api.git"
+    },
+    {
+      "type": "vcs",
+      "url":  "https://github.com/dmason30/blueprint.git"
+    }
+  ],
   "require": {
     "php": "^7.4|^8.0",
-    "api-ecosystem-for-laravel/dingo-api": "^3.1",
+    "api-ecosystem-for-laravel/dingo-api": "dev-laravel-9-support",
     "php-open-source-saver/jwt-auth": "^1.4",
     "illuminate/support": "^9.0",
     "ramsey/uuid": "^4.1"
